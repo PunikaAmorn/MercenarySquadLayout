@@ -219,7 +219,7 @@ ul.cart-list>li.total>.btn-cart:hover {
 
 #recent-blog .blog-post:hover .read-more-link,
 .blog-post:hover .post-content .post-title a {
-    color:  #0097d3; 
+    color:  #9a9a9a; 
     /* #d8a304; */
 }
 
@@ -424,20 +424,20 @@ ul.tags li a:hover {
 =========================================*/
 /* Theme Reset css */
 p {
-    color: #d5d7ee;
+    color: #ccbbaa;
 }
 
 .section-header p {
-    color: #d5d7ee;
+    color: #ccbbaa;
 }
 
 /* Main Menu*/
 .mean-container .mean-nav ul li a.mean-expand:hover {
-    background: #d5d7ee;
+    background: #ccbbaa;
 }
 
 ul.cart-list>li.total {
-    background-color: #d5d7ee;
+    background-color: #ccbbaa;
 }
 
 /* Sections */
@@ -461,7 +461,7 @@ ul.cart-list>li.total {
 }
 
 .sorting-btn li a {
-    color: #0097d3;
+    color: #9a9a9a;
 }
 .sorting-btn li a:hover  {
     color: #7fc5e0;
@@ -505,7 +505,7 @@ ul.cart-list>li.total {
 }
 
 .servicepage-item p {
-    color: #d5d7ee;
+    color: #ccbbaa;
 }
 
 .servicepage-item a:hover {
@@ -518,7 +518,7 @@ ul.cart-list>li.total {
 }
 
 .portfolio-page .content a {
-    color: #0097d3;
+    color: #9a9a9a;
 }
 
 .portfolio-page .content a:hover {
@@ -538,7 +538,7 @@ ul.cart-list>li.total {
 }
 
 .exclusive-content i {
-    color: #0097d3;
+    color: #9a9a9a;
 }
 
 #exclusive .owl-dot {
@@ -554,16 +554,16 @@ ul.cart-list>li.total {
 }
 
 #blog-content ul.meta-info li {
-    color: #0097d3;
+    color: #9a9a9a;
     /* color: #d5d7ee; */
 }
 
 #blog-content ul.meta-info li a {
-    color: #0097d3;
+    color: #9a9a9a;
 }
 
 .post-content .content {
-    color: #d5d7ee;
+    color: #ccbbaa;
 }
 
 #blog-content .post-content .continue-reading {
@@ -575,11 +575,11 @@ ul.cart-list>li.total {
 }
 
 .single-blog-area ul.share-icon li a {
-    color: #0097d3;
+    color: #9a9a9a;
 }
 
 .post-comment-area .comment-author a {
-    color: #0097d3;
+    color: #9a9a9a;
 }
 
 .office h4 {
@@ -595,7 +595,7 @@ ul.cart-list>li.total {
 }
 
 #wrapper-404 .inner-content p {
-    color: #d5d7ee;
+    color: #ccbbaa;
 }
 
 /*Widget CSS */

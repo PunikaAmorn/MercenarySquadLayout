@@ -93,7 +93,7 @@ body {
     font-family: "Roboto Condensed" , "Chakra Petch", 'Roboto', sans-serif;
     font-weight: 400;
     /* background: #fff; */
-    background: #131623;
+    background: #1b130f;
     color: #ffffff;
 }
 
@@ -161,17 +161,17 @@ p{
 p.small,
 a {
     font-family: "Roboto Condensed" , "Chakra Petch", 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 400;    
 }
 
 p.small{
-    color: #d5d7ee;
+    color: #ccbbaa;
 }
 
 a{
-    color: #0097d3;
+    color: #9a9a9a;
 }
 
 a:hover,
@@ -1059,7 +1059,7 @@ ul.cart-list > li.total > .btn-cart:hover {
     box-shadow: 0px 8px 16px 0px rgba(255, 209, 42, 0.12);
     border-radius: 6px;
     /* background: #232b3e; */
-    background: #2b180c;
+    background: #000000;
     -webkit-transition: .3s all;
     transition: .3s all;
 }
@@ -1688,7 +1688,8 @@ input#subscribe-mail {
     padding: 30px 0 20px;
     /* background: #fff; */
      background: #e7ae00;
-    border-radius: 10px 10px 0 0;
+    /* border-radius: 10px 10px 0 0; */
+    border-radius: 2px 2px 0 0;
     margin-top: -20px;
     position: relative;
 }
@@ -1700,7 +1701,8 @@ input#subscribe-mail {
     left: 0;
     width: 100%;
     height: 56px;
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */ 
+    border-radius: 0 0 2px 2px;
     /* background: #fff; */    
      background: #d8a201;
     -webkit-transform: rotate(5deg);
