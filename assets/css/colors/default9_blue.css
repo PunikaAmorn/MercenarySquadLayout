@@ -447,7 +447,7 @@ ul.cart-list>li.total {
 #pricing .features:after,
 .video-section:after,
 .skill-item:after  {
-    background: #4f3a2b !important;    
+    background: #233049 !important;    
 }
 
 
@@ -472,31 +472,31 @@ ul.cart-list>li.total {
 }
 
 .member-title {
-    color: #4f3a2b;
+    color: #233049;
 }
 
 #testimonial .owl-dot {
-    background: #4f3a2b;    
+    background: #233049;    
 }
 
 .single-testimonial {
-    background: #4f3a2b; 
+    background: #233049; 
 }
 
 #pricing .prcing-head {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 #pricing .price {
-    color: #4f3a2b;    
+    color: #233049;    
 }
 
 #recent-blog .read-more-link {
-    color: #4f3a2b;    
+    color: #233049;    
 }
 
 .contact-us-info {
-    background: #4f3a2b;    
+    background: #233049;    
 }
 
 /* Service Page */
@@ -509,7 +509,7 @@ ul.cart-list>li.total {
 }
 
 .servicepage-item a:hover {
-    color: #4f3a2b;
+    color: #233049;
 }
 
 /* Portfolio */
@@ -526,11 +526,11 @@ ul.cart-list>li.total {
 }
 
 .pagination a.page-link {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 .exclusive-content {
-    background-color: #332419;
+    background-color: #131623;
 }
 
 .exclusive-content h5 {
@@ -546,7 +546,7 @@ ul.cart-list>li.total {
 }
 
 .gallery-item figure:hover figcaption {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 #blog-content .post-title a {
@@ -602,7 +602,7 @@ ul.cart-list>li.total {
 
 #footer-widgets,
 .widget-search input[type=button]:hover {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 .widget-search .search-form,
@@ -623,6 +623,6 @@ ul.tags li a,
 
 .get-in-touch input::-webkit-input-placeholder,
 .get-in-touch textarea::-webkit-input-placeholder {
-  color: #4f3a2b;    
+  color: #233049;    
 }
 
