@@ -219,7 +219,7 @@ ul.cart-list>li.total>.btn-cart:hover {
 
 #recent-blog .blog-post:hover .read-more-link,
 .blog-post:hover .post-content .post-title a {
-    color:  #9a9a9a; 
+    color:  #0097d3; 
     /* #d8a304; */
 }
 
@@ -424,20 +424,20 @@ ul.tags li a:hover {
 =========================================*/
 /* Theme Reset css */
 p {
-    color: #e1d8ce;
+    color: #d5d7ee;
 }
 
 .section-header p {
-    color: #dcd6d0;
+    color: #d5d7ee;
 }
 
 /* Main Menu*/
 .mean-container .mean-nav ul li a.mean-expand:hover {
-    background: #dcd6d0;
+    background: #d5d7ee;
 }
 
 ul.cart-list>li.total {
-    background-color: #dcd6d0;
+    background-color: #d5d7ee;
 }
 
 /* Sections */
@@ -447,7 +447,7 @@ ul.cart-list>li.total {
 #pricing .features:after,
 .video-section:after,
 .skill-item:after  {
-    background: #4f3a2b !important;    
+    background: #233049 !important;    
 }
 
 
@@ -457,14 +457,14 @@ ul.cart-list>li.total {
 }
 
 .view-more:hover {
-    color: #dadaac;
+    color: #7fc5e0;
 }
 
 .sorting-btn li a {
-    color: #9a9a9a;
+    color: #0097d3;
 }
 .sorting-btn li a:hover  {
-    color: #dadaac;
+    color: #7fc5e0;
 }
 
 .services-item {    
@@ -472,31 +472,31 @@ ul.cart-list>li.total {
 }
 
 .member-title {
-    color: #4f3a2b;
+    color: #233049;
 }
 
 #testimonial .owl-dot {
-    background: #4f3a2b;    
+    background: #233049;    
 }
 
 .single-testimonial {
-    background: #4f3a2b; 
+    background: #233049; 
 }
 
 #pricing .prcing-head {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 #pricing .price {
-    color: #4f3a2b;    
+    color: #233049;    
 }
 
 #recent-blog .read-more-link {
-    color: #4f3a2b;    
+    color: #233049;    
 }
 
 .contact-us-info {
-    background: #4f3a2b;    
+    background: #233049;    
 }
 
 /* Service Page */
@@ -505,11 +505,11 @@ ul.cart-list>li.total {
 }
 
 .servicepage-item p {
-    color: #dcd6d0;
+    color: #d5d7ee;
 }
 
 .servicepage-item a:hover {
-    color: #4f3a2b;
+    color: #233049;
 }
 
 /* Portfolio */
@@ -518,7 +518,7 @@ ul.cart-list>li.total {
 }
 
 .portfolio-page .content a {
-    color: #9a9a9a;
+    color: #0097d3;
 }
 
 .portfolio-page .content a:hover {
@@ -526,11 +526,11 @@ ul.cart-list>li.total {
 }
 
 .pagination a.page-link {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 .exclusive-content {
-    background-color: #332419;
+    background-color: #131623;
 }
 
 .exclusive-content h5 {
@@ -538,7 +538,7 @@ ul.cart-list>li.total {
 }
 
 .exclusive-content i {
-    color: #9a9a9a;
+    color: #0097d3;
 }
 
 #exclusive .owl-dot {
@@ -546,7 +546,7 @@ ul.cart-list>li.total {
 }
 
 .gallery-item figure:hover figcaption {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 #blog-content .post-title a {
@@ -554,16 +554,16 @@ ul.cart-list>li.total {
 }
 
 #blog-content ul.meta-info li {
-    color: #9a9a9a;
+    color: #0097d3;
     /* color: #d5d7ee; */
 }
 
 #blog-content ul.meta-info li a {
-    color: #9a9a9a;
+    color: #0097d3;
 }
 
 .post-content .content {
-    color: #dcd6d0;
+    color: #d5d7ee;
 }
 
 #blog-content .post-content .continue-reading {
@@ -575,11 +575,11 @@ ul.cart-list>li.total {
 }
 
 .single-blog-area ul.share-icon li a {
-    color: #9a9a9a;
+    color: #0097d3;
 }
 
 .post-comment-area .comment-author a {
-    color: #9a9a9a;
+    color: #0097d3;
 }
 
 .office h4 {
@@ -595,14 +595,14 @@ ul.cart-list>li.total {
 }
 
 #wrapper-404 .inner-content p {
-    color: #dcd6d0;
+    color: #d5d7ee;
 }
 
 /*Widget CSS */
 
 #footer-widgets,
 .widget-search input[type=button]:hover {
-    background: #4f3a2b;
+    background: #233049;
 }
 
 .widget-search .search-form,
@@ -623,6 +623,6 @@ ul.tags li a,
 
 .get-in-touch input::-webkit-input-placeholder,
 .get-in-touch textarea::-webkit-input-placeholder {
-  color: #4f3a2b;    
+  color: #233049;    
 }
 
