@@ -35,7 +35,7 @@
     <!-- Start: Header Top
     ============================= -->
     <section id="header-top">
-        <!-- <div class="container">
+        <div class="container">
             
             <div class="row">
                 <div class="col-lg-6 col-md-6 text-md-left text-center mb-lg-0 mb-1">
@@ -57,9 +57,25 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </section>
     <!-- End: Header Top
+    ============================= -->
+
+    <!-- Start: Search
+    ============================= -->
+
+    <div id="search">
+        <a href="#" id="close-btn">
+        <i class="fa fa-times"></i>
+        </a>
+        <div>
+            <input placeholder="type here" id="searchbox" type="search" />
+            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+
+    <!-- End: Search
     ============================= -->
 
 
@@ -74,21 +90,37 @@
                 <div class="row">
                     <div class="col-lg-3 col-6">
                         <div class="logo main">
-                            <a href="index.html"><img class="responsive" src="assets/img/logo.png" alt="Mercenary Squad"></a>
+                            <a href="index.html"><img class="responsive" src="assets/img/logo.png" alt="Startkit"></a>
                         </div>
                     </div>
 
                     <!-- Nav -->
                     <div class="col-lg-6 d-none d-lg-block">
-                        <nav class="text-center main-menu">
+                        <nav class="text-right main-menu">
                             <ul>
                                 <li class="active">
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li><a href="message.html">Message</a></li>
-                                <li><a href="story.html">Story</a></li>
-                                <li><a href="rule.html">Rule</a></li>
-                                <li><a href="unit.html">Unit</a></li>                                
+                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="service.html">Services</a></li>
+                                <li><a href="portfolio-2-column.html">Portfolio <i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="portfolio-2-column.html">Portfolio 2 Column</a></li>
+                                        <li><a href="portfolio-3-column.html">Portfolio 3 Column</a></li>
+                                        <li><a href="portfolio-4-column.html">Portfolio 4 Column</a></li>
+                                        <li><a href="portfolio-masonary.html">Portfolio Masonary</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="#">Blog <i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="blog-full-width.html">Blog Full Width</a></li>
+                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                        <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
+                                        <li><a href="blog-single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact-us.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -97,8 +129,33 @@
                     <div class="col-lg-3 col-6">
                         <div class="header-right-bar">                            
                             <ul>
+                                <li class="search-button">
+                                    <a class="" href="#search"><i class="icofont icofont-search"></i></a>                                
+                                </li>
+
+                                <li class="cart-icon dropdown">
+                                    <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icofont icofont-shopping-cart"></i>
+                                    <span class="badge">2</span>
+                                    </a>
+                                    <ul class="dropdown-menu main cart-list">
+                                        <li>
+                                            <a href="#" class="photo"><img src="assets/img/homepage/recent/recentimg01.png" alt=""></a>
+                                            <p><a href="#">Lorem ipsum dolor sit amet</a></p>
+                                            <p class="price">$158.22</p>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="photo"><img src="assets/img/homepage/recent/recentimg01.png" class="cart-thumb" alt="" /></a>
+                                            <p><a href="#">Lorem ipsum dolor sit amet</a></p>
+                                            <p class="price">$148.22</p>
+                                        </li>
+                                        <li class="total">
+                                            <span class="pull-right"><strong>Total</strong>: $320.00</span>
+                                            <a href="#" class="btn-cart">Cart</a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li class="book-now-btn">
-                                    <a class="book-now" href="#"><i class="fa fa-user"></i>LOGIN</a>
+                                    <a class="book-now" href="#"><i class="fa fa-book"></i>Book Now</a>
                                 </li>
                             </ul>
                         </div>
@@ -117,10 +174,26 @@
                                         <li class="active">
                                             <a href="index.html">Home</a>
                                         </li>
-                                        <li><a href="message.html">Message</a></li>
-                                        <li><a href="story.html">Story</a></li>
-                                        <li><a href="rule.html">Rule</a></li>
-                                        <li><a href="unit.html">Unit</a></li>               
+                                        <li><a href="about-us.html">About</a></li>
+                                        <li><a href="service.html">Services</a></li>
+                                        <li><a href="portfolio-2-column.html">Portfolio <i class="fa fa-angle-down"></i></a>
+                                            <ul>
+                                                <li><a href="portfolio-2-column.html">Portfolio 2 Column</a></li>
+                                                <li><a href="portfolio-3-column.html">Portfolio 3 Column</a></li>
+                                                <li><a href="portfolio-4-column.html">Portfolio 4 Column</a></li>
+                                                <li><a href="portfolio-masonary.html">Portfolio Masonary</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="#">Blog <i class="fa fa-angle-down"></i></a>
+                                            <ul>
+                                                <li><a href="blog-full-width.html">Blog Full Width</a></li>
+                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                                <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="blog-single.html">Blog Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact-us.html">Contact</a></li>
                                     </ul>
                                 </nav>
                                 
@@ -193,26 +266,26 @@
             <div class="row text-lg-left text-md-center">
                 <div class="col-md-4 mb-lg-0 mb-3">
                     <div class="features-list-item wow fadeInUp" data-wow-delay="0.1s">
-                        <span class="icon"><i class="icofont icofont-brand-china-mobile"></i></span>
-                        <h4>Messages</h4>
-                        <p class="small">Update News about events , tournaments, or news that has arrived.</p>
-                        <a href="message.html" class="view-more">Explore more</a>
+                        <span class="icon"><i class="icofont icofont-triangle"></i></span>
+                        <h4>Design For Business</h4>
+                        <p class="small">The chunk standard of Lorem Ipsum used since the 900s is reproduced below</p>
+                        <a href="#" class="view-more">View more</a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-md-0 mb-3">
                     <div class="features-list-item wow fadeInUp" data-wow-delay="0.2s">
-                        <span class="icon"><i class="icofont icofont-triangle"></i></span>
-                        <h4>Rules</h4>
-                        <p class="small">The rules you need to know and the Q&A that most people often wonder about.</p>
-                        <a href="rule.html" class="view-more">Explore more</a>
+                        <span class="icon"><i class="icofont icofont-brand-airtel"></i></span>
+                        <h4>Develop For Work</h4>
+                        <p class="small">The chunk standard of Lorem Ipsum used since the 900s is reproduced below</p>
+                        <a href="#" class="view-more">View more</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="features-list-item wow fadeInUp" data-wow-delay="0.3s">
-                        <span class="icon"><i class="icofont icofont-circuit"></i></span>
-                        <h4>Units</h4>
-                        <p class="small">Check your Units' abilities, skills, and read information related to the Unit.</p>
-                        <a href="unit.html" class="view-more">Explore more</a>
+                        <span class="icon"><i class="icofont icofont-brand-teliasonera"></i></span>
+                        <h4>Maketing For Blast</h4>
+                        <p class="small">The chunk standard of Lorem Ipsum used since the 900s is reproduced below</p>
+                        <a href="#" class="view-more">View more</a>
                     </div>
                 </div>
             </div>
@@ -227,11 +300,11 @@
         <div class="container">
             <div class="row call-out">
                 <div class="col-lg-9 col-md-7 col-12 text-md-left text-center mb-md-0 mb-4">
-                    <h3>"Do you already have your company?"</h3>
-                    <p>Click for created your company!</p>
+                    <h3>All of your favorite people</h3>
+                    <p>Welcome to connect with us!</p>
                 </div>
                 <div class="col-lg-3 col-md-5 col-12 text-md-right text-center">
-                    <a href="#" class="boxed-btn">Register Now</a>
+                    <a href="#" class="boxed-btn">Connect Now</a>
                 </div>
             </div>
         </div>
@@ -239,94 +312,9 @@
     <!-- End: Call Out
     ============================= -->
 
-    <!-- Start: Recent Blog
-    ============================= -->
-
-    <section id="recent-blog" class="section-padding-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-md-3 text-center">
-                    <div class="section-header">
-                        <h2>Message</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.1s">Don't miss the 3 Latest News about events, tournaments, or news.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">
-                    <article class="blog-post">
-                        <div class="post-thumbnail">
-                            <img src="assets/img/homepage/blog/blog01.jpg" alt="" class="img-responsive center-block">
-                            <ul class="meta-info list-inline">
-                                <li class="posted-by">By <a href="#">Murad Takla</a></li>
-                                <li class="post-date"><a href="#">25 Jan 2017</a></li>
-                                <li class="tags"> Tags: <a href="#">Business</a></li>
-                            </ul>
-                        </div>
-                        <div class="post-content">
-                            <div class="post-content-inner">
-                                <h5 class="post-title"><a href="message/message.html">We provide the tools you need to create a blog </a></h5>
-                                <p>Consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliquauis aute irure dolor eiusmod.</p>
-                            </div>
-                            <div class="read-more-wrapper">
-                                <a href="message/message1.html" class="read-more-link">Read More</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">
-                    <article class="blog-post">
-                        <div class="post-thumbnail">
-                            <img src="assets/img/homepage/blog/blog02.jpg" alt="" class="img-responsive center-block">
-                            <ul class="meta-info list-inline">
-                                <li class="posted-by">By <a href="#">Aminul</a></li>
-                                <li class="post-date"><a href="#">18 Jan 2017</a></li>
-                                <li class="tags"> Tags: <a href="#">Marketing</a></li>
-                            </ul>
-                        </div>
-                        <div class="post-content">
-                            <div class="post-content-inner">
-                                <h5 class="post-title"><a href="message/message2.html">Find out which posts are a hit with Blogger’s built inan</a></h5>
-                                <p>Consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliquauis aute irure dolor eiusmod.</p>
-                            </div>
-                            <div class="read-more-wrapper">
-                                <a href="message/message2.html" class="read-more-link">Read More</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <article class="blog-post">
-                        <div class="post-thumbnail">
-                            <img src="assets/img/homepage/blog/blog03.jpg" alt="" class="img-responsive center-block">
-                            <ul class="meta-info list-inline">
-                                <li class="posted-by">By <a href="#">Spanco</a></li>
-                                <li class="post-date"><a href="#">15 Jan 2017</a></li>
-                                <li class="tags"> Tags: <a href="#">Business</a></li>
-                            </ul>
-                        </div>
-                        <div class="post-content">
-                            <div class="post-content-inner">
-                                <h5 class="post-title"><a href="message/message3.html">The possib to monetize through publishing ads on this</a></h5>
-                                <p>Numminim Lorem ipsum dolor sit amet, consectetur adiiga elit, abuci sedeiusmod tempor nimni ad veniam, quis nostrud layers.</p>
-                            </div>
-                            <div class="read-more-wrapper">
-                                <a href="message/message3.html" class="read-more-link">Read More</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End: Recent Blog
-    ============================= -->
-
-
     <!-- Start: Portfolio
     ============================= -->
-    <section id="portfolio" class="portfolio-masonary section-padding-80">
+    <section id="portfolio" class="portfolio-masonary section-padding-top">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
@@ -481,7 +469,7 @@
 
     <!-- Start: Services
     ============================= -->
-    <section id="services" class="section-padding-80">
+    <section id="services" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
@@ -662,7 +650,7 @@
 
     <!-- Start: Testimonial
     ============================= -->
-    <section id="testimonial" class="section-padding-80">
+    <section id="testimonial" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
@@ -725,7 +713,7 @@
 
     <!-- Start: Pricing
     ============================= -->
-    <section id="pricing" class=" section-padding-80">
+    <section id="pricing" class=" section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
@@ -799,6 +787,89 @@
     <!-- End: Pricing
     ============================= -->
 
+    <!-- Start: Recent Blog
+    ============================= -->
+
+    <section id="recent-blog" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <div class="section-header">
+                        <h2>Recent Blog</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.1s">Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                    <article class="blog-post">
+                        <div class="post-thumbnail">
+                            <img src="assets/img/homepage/blog/blog01.jpg" alt="" class="img-responsive center-block">
+                            <ul class="meta-info list-inline">
+                                <li class="posted-by">By <a href="#">Murad Takla</a></li>
+                                <li class="post-date"><a href="#">25 Jan 2017</a></li>
+                                <li class="tags"> Categories: <a href="#">Business</a></li>
+                            </ul>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-inner">
+                                <h5 class="post-title"><a href="blog-single.html">We provide the tools you need to create a blog </a></h5>
+                                <p>Consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliquauis aute irure dolor eiusmod.</p>
+                            </div>
+                            <div class="read-more-wrapper">
+                                <a href="blog-single.html" class="read-more-link">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                    <article class="blog-post">
+                        <div class="post-thumbnail">
+                            <img src="assets/img/homepage/blog/blog02.jpg" alt="" class="img-responsive center-block">
+                            <ul class="meta-info list-inline">
+                                <li class="posted-by">By <a href="#">Aminul</a></li>
+                                <li class="post-date"><a href="#">18 Jan 2017</a></li>
+                                <li class="tags"> Categories: <a href="#">Marketing</a></li>
+                            </ul>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-inner">
+                                <h5 class="post-title"><a href="blog-single.html">Find out which posts are a hit with Blogger’s built inan</a></h5>
+                                <p>Consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliquauis aute irure dolor eiusmod.</p>
+                            </div>
+                            <div class="read-more-wrapper">
+                                <a href="blog-single.html" class="read-more-link">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="blog-post">
+                        <div class="post-thumbnail">
+                            <img src="assets/img/homepage/blog/blog03.jpg" alt="" class="img-responsive center-block">
+                            <ul class="meta-info list-inline">
+                                <li class="posted-by">By <a href="#">Spanco</a></li>
+                                <li class="post-date"><a href="#">15 Jan 2017</a></li>
+                                <li class="tags"> Categories: <a href="#">Business</a></li>
+                            </ul>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-inner">
+                                <h5 class="post-title"><a href="blog-single.html">The possib to monetize through publishing ads on this</a></h5>
+                                <p>Numminim Lorem ipsum dolor sit amet, consectetur adiiga elit, abuci sedeiusmod tempor nimni ad veniam, quis nostrud layers.</p>
+                            </div>
+                            <div class="read-more-wrapper">
+                                <a href="blog-single.html" class="read-more-link">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End: Recent Blog
+    ============================= -->
 
     <!-- Start: Contact Us
     ============================= -->
@@ -848,29 +919,55 @@
     <!-- End: Contact Us
     ============================= -->
 
-       <!-- Start: Footer Sidebar
+    <!-- Start: Footer Sidebar
     ============================= -->
+
     <footer id="footer-widgets">
         <div class="container">
-
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
                     <aside class="widget widget_about">
                         <div class="footer-logo"><img src="assets/img/footerlogo.png" alt=""></div>
-                        <p class="widget-text pr-5">Gonsectetur adipi sicing elit, sed do eiusmod tempor incididunt labore et.dolore magna aliquauis a irure dolor eiusmod.</p>
-                        <a href="#">Go for Story <i class="icofont icofont-long-arrow-right"></i></a>
+                        <p class="widget-text">Gonsectetur adipi sicing elit, sed do eiusmod tempor incididunt labore et.dolore magna aliquauis a irure dolor eiusmod.</p>
+                        <a href="#">Go for details <i class="icofont icofont-long-arrow-right"></i></a>
                     </aside>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="col-lg-2 col-md-6 col-sm-12 mb-lg-0 mb-4">
                     <aside class="widget widget_pages">
                         <h4 class="widget-title">Web Pages</h4>
                         <div class="title-border"></div>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="message.html">Message</a></li>
-                            <li><a href="story.html">Story</a></li>
-                            <li><a href="rule.html">Rule</a></li>
-                            <li><a href="unit.html">Unit</a></li>   
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-md-0 mb-4">
+                    <aside class="widget widget_recent">
+                        <h4 class="widget-title">Recent theme</h4>
+                        <ul>
+                            <li class="recent-item">
+                                <a href="#">
+                                <img src="assets/img/homepage/recent/recentimg01.png" alt="">
+                                <p>Education site template, will be distracted</p>
+                            </a>
+                            </li>
+                            <li class="recent-item">
+                                <a href="#">
+                                    <img src="assets/img/homepage/recent/recentimg02.png" alt="">
+                                    <p>Education site template, will be distracted</p>
+                                </a>
+                            </li>
+                            <li class="recent-item">
+                                <a href="#">
+                                    <img src="assets/img/homepage/recent/recentimg01.png" alt="">
+                                    <p>Education site template, will be distracted</p>
+                                </a>
+                            </li>
                         </ul>
                     </aside>
                 </div>
@@ -878,7 +975,11 @@
                     <aside class="widget widget_contact">
                         <h4 class="widget-title">Contact information</h4>
                         <p class="widget-text">Gonsectetur adipi sicing elit, sed do eiusmod tempor incididunt labore et.dolore magna aliquauis a irure dolor eiusmod.</p>
-                         <ul class="widget-social">
+                        <form class="#" action="#">
+                            <input type="text" placeholder="Email here">
+                            <button class="footer-subscribe boxed-btn" type="submit">Subscribe</button>
+                        </form>
+                        <ul class="widget-social">
                             <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
                             <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
                             <li><a href="#"><i class="icofont icofont-social-linkedin"></i></a></li>
@@ -888,9 +989,9 @@
                     </aside>
                 </div>
             </div>
-
         </div>
     </footer>
+
     <!-- End: Footer Sidebar
     ============================= -->
 

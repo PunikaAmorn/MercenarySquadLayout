@@ -221,7 +221,7 @@ img {
 }
 
 .section-header {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -479,6 +479,8 @@ nav {
     display: inline-block;
     position: relative;
     z-index: 2;
+    padding: 0px 3px;
+    margin: 0px 5px;
 }
 
 .main-menu ul li a {
@@ -1774,7 +1776,7 @@ input#subscribe-mail {
 
 #recent-blog {
     background: #0302331f;
-    padding-bottom: 210px;
+    padding-bottom: 80px;
 }
 
 #recent-blog .blog-post {
@@ -2985,4 +2987,9 @@ ul.contact-social li a {
 #wrapper-404 .inner-content p {
     font-size: 23px;
     margin-bottom: 26px;
+}
+
+
+.footer-logo img{
+    width: 75% ;
 }
