@@ -2,7 +2,7 @@
 *
 * ------------------------------------------------------------------
 *
-* Project: StartKit - Multipurpose Business HTML5 template
+* Project: Mercenary Squad
 * Version: 1.1
 * Created : 15/12/2017
 * Template URI: 
@@ -239,6 +239,10 @@ img {
     width: 80px;
     height: 2px;
 }
+
+.section-header h2.w-50:before{
+    width: 50px;
+}
 .section-header.text-left h2:before{
     content: '';
     position: absolute;
@@ -257,6 +261,9 @@ img {
     height: 2px;
 }
 
+.section-header h2.w-50:after{
+    width: 50px;
+}
 
 .boxed-btn {
     color: #fff;
@@ -1329,10 +1336,12 @@ ul.cart-list > li.total > .btn-cart:hover {
 */
 
 .services-item {
-    padding: 50px 15px;
+    /* padding: 50px 15px; */
+    padding: 30px 15px;
     box-shadow: 0px 0px 6px 0px rgba(255, 209, 42, 0.4);
     -webkit-transition: .3s all;
     transition: .3s all;
+    margin-bottom: 20px;
 }
 
 .services-item:hover {
@@ -1354,14 +1363,32 @@ ul.cart-list > li.total > .btn-cart:hover {
     font-size: 50px;
 }
 
+.services-item .service-icon:before {
+    content: '';    
+    right: 18px;
+    position: absolute;
+    bottom: 25px;
+    width: 40px;
+    height: 2px;
+}
+
+.services-item .service-icon.QA:before {
+    content: 'Question'; 
+    color:#d8a304;
+}
 
 .services-item .service-icon:after {
     content: '';
     position: absolute;
     top: 50%;
     right: -15px;
-    width: 40px;
+    width: 80px;
     height: 2px;
+}
+
+.services-item .service-icon.QA:after {
+    content: 'Answer';
+    top: 88%;
 }
 
 .services-item h4 {
@@ -1369,7 +1396,16 @@ ul.cart-list > li.total > .btn-cart:hover {
     -webkit-transition: .3s;
     transition: .3s;
 }
+.services-item h4.sideL {
+    text-align: left;
+    padding-left: 25px;
+}
 
+.services-item p.sideR {
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 80px;
+}
 
 /*
 ==========================================
@@ -1694,8 +1730,8 @@ input#subscribe-mail {
     padding: 30px 0 20px;
     /* background: #fff; */
      background: #e7ae00;
-    /* border-radius: 10px 10px 0 0; */
-    border-radius: 2px 2px 0 0;
+    border-radius: 10px 10px 0 0;
+    /* border-radius: 2px 2px 0 0; */
     margin-top: -20px;
     position: relative;
 }
@@ -1707,8 +1743,8 @@ input#subscribe-mail {
     left: 0;
     width: 100%;
     height: 56px;
-    /* border-radius: 0 0 10px 10px; */ 
-    border-radius: 0 0 2px 2px;
+    border-radius: 0 0 10px 10px; 
+    /* border-radius: 0 0px 10px 10px; */
     /* background: #fff; */    
      background: #d8a201;
     -webkit-transform: rotate(5deg);
