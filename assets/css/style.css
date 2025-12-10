@@ -3093,6 +3093,7 @@ ul.contact-social li a {
 
 .portfolio-item.pos-rel .content{
     border-bottom: 3px solid #d8a304;
+    padding-bottom: 3px;
 }
 .portfolio-item.pos-rel .content::after{
     content:"";
