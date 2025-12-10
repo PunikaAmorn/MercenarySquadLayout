@@ -1945,15 +1945,18 @@ input#subscribe-mail {
     padding: 80px 0;
     position: relative;
     z-index: 1;
+
 }
 
 .contact-box {
     width: 60%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 40px 0;
     background: #1c2333;
     box-shadow: 0px 2px 20px 0px rgba(255, 209, 42, 0.2);
-    margin-top: -180px;
+    /* margin-top: -180px; */
+    margin: 180px auto; 
+    position: relative;
 }
 
 .contact-us-info {
@@ -3028,4 +3031,77 @@ ul.contact-social li a {
 
 .footer-logo img{
     width: 75% ;
+}
+
+
+/*
+===================================================================================
+    10. Units
+===================================================================================
+*/
+.portfolio-item.pos-rel{
+    position: relative;
+}
+
+.unit-tab-select{
+    height: 30px;
+    border-top: 3px solid #d8a304;    
+    border-left: 3px solid #d8a304;    
+    width:100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.unit-tab-select::after{
+    content: '';
+    left: 27px;
+    border-top: 29px solid #d8a304;
+    border-right: 30px solid transparent;
+    position: absolute;
+}
+
+.unit-tab-select::before{
+    content: '';
+    height: 28px;
+    width: 28px;
+    background-color: #d8a304;
+    position: absolute;
+}
+
+.unit-tab-select .unit-sel{  
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.unit-tab-select .unit-sel:checked {
+  appearance: auto;
+  clip-path: circle(50% at 50% 50%);
+   accent-color: #4f3a2b;
+}
+
+.portfolio-item.pos-rel .content{
+    border-bottom: 3px solid #d8a304;
+    padding-bottom: 3px;
+}
+.portfolio-item.pos-rel .content::after{
+    content:"";
+    width: 50%;
+    height: 8px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-bottom: 12px solid #d8a304;
+    border-left: 15px solid transparent;
 }
