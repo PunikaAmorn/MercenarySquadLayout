@@ -720,7 +720,7 @@ a.book-now {
     display: block;
 }
 
-a.book-now:hover {
+a.book-now:hover ,a.book-now.active  {
     color: #fff;
 }
 
@@ -1934,6 +1934,25 @@ input#subscribe-mail {
     color: #d8a304;
 }
 
+
+
+#recent-blog .owl-dots {
+    width: 300px;
+    height: 100%;
+    margin: 60px auto 0;
+    text-align: center;
+}
+
+#recent-blog .owl-dot {
+    width: 20px;
+    height: 6px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
 /*
 ==========================================
     15. Contact Form
@@ -2451,7 +2470,9 @@ a.view-details {
 }
 
 .portfolio-item {
-    box-shadow: 0px 0px 4px 0px rgba(255, 209, 42, 0.16);
+    /* box-shadow: 0px 0px 4px 0px rgba(255, 209, 42, 0.16); */
+    border: 1px solid #d8a304;
+    margin: 2px;
 }
 
 .portfolio-page figure {
@@ -2465,7 +2486,8 @@ a.view-details {
 .portfolio-page .content {
     /* background: #131623; */
     background: #4f3a2b;
-    padding: 15px 15px;
+    /* padding: 15px 15px; */
+    padding: 5px;
     margin-top: -6px;
 }
 
@@ -3044,9 +3066,9 @@ ul.contact-social li a {
 }
 
 .unit-tab-select{
-    height: 30px;
-    border-top: 3px solid #d8a304;    
-    border-left: 3px solid #d8a304;    
+    height: 25px;
+    border-top: 1px solid #d8a304;    
+    border-left: 1px solid #d8a304;    
     width:100%;
     position: absolute;
     z-index: 1;
@@ -3055,24 +3077,24 @@ ul.contact-social li a {
 
 .unit-tab-select::after{
     content: '';
-    left: 27px;
-    border-top: 29px solid #d8a304;
-    border-right: 30px solid transparent;
+    left: 24.5px;
+    border-top: 25px solid #d8a304;
+    border-right: 25px solid transparent;
     position: absolute;
 }
 
 .unit-tab-select::before{
     content: '';
-    height: 28px;
-    width: 28px;
+    height: 25px;
+    width: 25px;
     background-color: #d8a304;
     position: absolute;
 }
 
 .unit-tab-select .unit-sel{  
     position: relative;
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     margin-left: 3px;
     background-color: white;
     border-radius: 50%;
@@ -3092,8 +3114,8 @@ ul.contact-social li a {
 }
 
 .portfolio-item.pos-rel .content{
-    border-bottom: 3px solid #d8a304;
-    padding-bottom: 3px;
+    border-bottom: 1px solid #d8a304;
+    padding-bottom: 2px;
 }
 .portfolio-item.pos-rel .content::after{
     content:"";
@@ -3102,6 +3124,6 @@ ul.contact-social li a {
     right: 0;
     bottom: 0;
     position: absolute;
-    border-bottom: 12px solid #d8a304;
-    border-left: 15px solid transparent;
+    border-bottom: 8px solid #d8a304;
+    border-left: 10px solid transparent;
 }

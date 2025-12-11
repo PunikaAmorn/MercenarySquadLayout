@@ -77,6 +77,29 @@
             }
         });
 
+        $(".message-carousel").owlCarousel({
+            items: 3,
+            loop: true,
+            dots: true,
+            nav: false,
+            margin: 30,
+            center: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                700: {
+                    items: 1,
+                },
+                900: {
+                    items: 3
+                }
+            }
+        });
+        
         // Exclusive Carousel for 4 column
         $(".exclusive-carousel.4-column").owlCarousel({
             items: 4,
