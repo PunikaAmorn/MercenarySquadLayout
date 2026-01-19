@@ -75,7 +75,7 @@ a.book-now {
     color: #d8a304;    
 }
 
-a.book-now:hover {
+a.book-now:hover ,a.book-now.active {
     background: #d8a304;
 }
 
@@ -106,6 +106,14 @@ ul.cart-list>li.total>.btn-cart {
 
 ul.cart-list>li.total>.btn-cart:hover {
     color: #d8a304;
+}
+
+.owl-dot {
+    background: #4f3a2b;    
+}
+
+.owl-dot.active {
+    background: #d8a304 ;
 }
 
 /* Header slider */
@@ -518,7 +526,8 @@ ul.cart-list>li.total {
 }
 
 .portfolio-page .content a {
-    color: #9a9a9a;
+    /* color: #9a9a9a; */
+    color: #fff;
 }
 
 .portfolio-page .content a:hover {

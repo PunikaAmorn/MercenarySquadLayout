@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="keywords" content="Startkit, Responsive, Business Template, Bootstrap 4,">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="MercenarySquad, Mercenary Squad, Board Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
     <title>Mercenary Squad</title>
 
@@ -60,7 +62,8 @@
                                 <li><a href="message.html">Message</a></li>
                                 <li class="active"><a href="story.html">Story</a></li>
                                 <li><a href="rule.html">Rule</a></li>
-                                <li><a href="unit.html">Unit</a></li>                                
+                                <li><a href="pandora-market.html">Pandora Market</a></li>
+                                <li><a href="unit.html">Unit</a></li>                             
                             </ul>
                         </nav>
                     </div>
@@ -69,8 +72,11 @@
                     <div class="col-lg-3 col-6">
                         <div class="header-right-bar">                            
                             <ul>
+                                <li class="book-now-btn" >
+                                    <a class="book-now" href="register.html"><i class="fa fa-plus-square"></i>Register</a>
+                                </li>
                                 <li class="book-now-btn">
-                                    <a class="book-now" href="login.html"><i class="fa fa-user"></i>LOGIN</a>
+                                    <a class="book-now ml-1" href="login.html"><i class="fa fa-user"></i>LOGIN</a>
                                 </li>
                             </ul>
                         </div>
@@ -90,7 +96,10 @@
                                         <li><a href="message.html">Message</a></li>
                                         <li class="active"><a href="story.html">Story</a></li>
                                         <li><a href="rule.html">Rule</a></li>
-                                        <li><a href="unit.html">Unit</a></li>               
+                                        <li><a href="pandora-market.html">Pandora Market</a></li>
+                                        <li><a href="unit.html">Unit</a></li>    
+                                        <li><a href="register.html">Register</a></li>
+                                        <li><a href="login.html">Login</a></li>                 
                                     </ul>
                                 </nav>
                                 
@@ -153,7 +162,7 @@
                 <div class="col-lg-6">
                     <div class="video-section">
                         <div class="play-icon">
-                            <a href="https://www.youtube.com/watch?v=pGbIOC83-So&t=35s" class="playbtn mfp-iframe"><img src="assets/img/aboutus/play-icon.png" alt=""></a>
+                            <a href="https://www.youtube.com/watch?v=WjHJYWAeHRw" class="popup-story mfp-iframe"><img src="assets/img/aboutus/play-icon.png" alt=""></a>
                         </div>
                         <div class="watch-more">
                             <a href="#">Watch more <i class="fa fa-youtube"></i></a>
@@ -303,6 +312,7 @@
                             <li><a href="message.html">Message</a></li>
                             <li><a href="story.html">Story</a></li>
                             <li><a href="rule.html">Rule</a></li>
+                            <li><a href="pandora-market.html">Pandora Market</a></li>
                             <li><a href="unit.html">Unit</a></li>   
                         </ul>
                     </aside>
@@ -355,7 +365,8 @@
     <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- <script src="assets/js/jquery.magnific-popup.min.js"></script> -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
     <script src="assets/js/wow.min.js"></script>
 
     <!-- Smooth Scroll -->
@@ -368,6 +379,37 @@
 
     <!-- Custom Script -->
     <script src="assets/js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.popup-story').magnificPopup({
+                type: 'iframe',
+                // other options
+                iframe: {
+                    markup: '<div class="mfp-iframe-scaler">'+
+                            '<div class="mfp-close"></div>'+
+                            '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                            '</div>', 
+
+                    patterns: {
+                    youtube: {
+                        index: 'youtube.com/', 
+
+                        id: 'v=',
+
+                        src: 'https://www.youtube.com/embed/%id%' 
+                    },
+
+
+                    },
+
+                    srcAction: 'iframe_src', 
+                }
+            });
+
+        });
+            
+
+    </script>
 </body>
 
 </html>
