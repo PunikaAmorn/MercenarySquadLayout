@@ -526,7 +526,8 @@ ul.cart-list>li.total {
 }
 
 .portfolio-page .content a {
-    color: #9a9a9a;
+    /* color: #9a9a9a; */
+    color: #fff;
 }
 
 .portfolio-page .content a:hover {
