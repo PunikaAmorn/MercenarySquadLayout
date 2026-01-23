@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="keywords" content="MercenarySquad, Mercenary Squad, Board Game">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
@@ -165,7 +164,7 @@
                             <a href="https://www.youtube.com/watch?v=WjHJYWAeHRw" class="popup-story mfp-iframe"><img src="assets/img/aboutus/play-icon.png" alt=""></a>
                         </div>
                         <div class="watch-more">
-                            <a href="#">Watch more <i class="fa fa-youtube"></i></a>
+                            <a href="https://www.youtube.com/watch?v=WjHJYWAeHRw">Watch more <i class="fa fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -392,7 +391,7 @@
                 iframe: {
                     markup: '<div class="mfp-iframe-scaler">'+
                             '<div class="mfp-close"></div>'+
-                            '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                            '<iframe class="mfp-iframe" id="player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'+
                             '</div>', 
 
                     patterns: {
@@ -401,7 +400,7 @@
 
                         id: 'v=',
 
-                        src: 'https://www.youtube.com/embed/%id%' 
+                        src: 'https://www.youtube-nocookie.com/embed/%id%' 
                     },
 
 
@@ -415,6 +414,7 @@
             
 
     </script>
+
 </body>
 
 </html>
