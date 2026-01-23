@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="keywords" content="MercenarySquad, Mercenary Squad, Board Game">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
@@ -165,7 +164,7 @@
                             <a href="https://www.youtube.com/watch?v=WjHJYWAeHRw" class="popup-story mfp-iframe"><img src="assets/img/aboutus/play-icon.png" alt=""></a>
                         </div>
                         <div class="watch-more">
-                            <a href="#">Watch more <i class="fa fa-youtube"></i></a>
+                            <a href="https://www.youtube.com/watch?v=WjHJYWAeHRw">Watch more <i class="fa fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -187,22 +186,27 @@
                     <div class="section-info">
                         <b>ปี 2241</b>
                         <p>การเดินทางในอวกาศได้ถูกสร้างขึ้นมาอย่างเป็นระบบและเป็นเวลาเดียวกับที่ทฤษฎี
-ของ รูหนอน (อังกฤษ: wormhole) เป็นที่รู้จักกันว่า ทางเชื่อมต่อ หรือ สะพานไอน์สไตน์-โรเชน
-(Einstein-Rosen bridge) ก็สามารถทำให้เกิดขึ้นจริงได้ มนุษย์จึงสามารถเดินทางไปได้ทั่วจักรวาล
-เพื่อการค้นหาและสำรวจ Quark
+                            ของ รูหนอน (อังกฤษ: wormhole) เป็นที่รู้จักกันว่า ทางเชื่อมต่อ หรือ สะพานไอน์สไตน์-โรเชน
+                            (Einstein-Rosen bridge) ก็สามารถทำให้เกิดขึ้นจริงได้ มนุษย์จึงสามารถเดินทางไปได้ทั่วจักรวาล
+                            เพื่อการค้นหาและสำรวจ Quark
                         </p>
                         <br>
                         
-                        <b>ปี 2241</b>
-                        <p>การเดินทางในอวกาศได้ถูกสร้างขึ้นมาอย่างเป็นระบบและเป็นเวลาเดียวกับที่ทฤษฎี
-ของ รูหนอน (อังกฤษ: wormhole) เป็นที่รู้จักกันว่า ทางเชื่อมต่อ หรือ สะพานไอน์สไตน์-โรเชน
-(Einstein-Rosen bridge) ก็สามารถทำให้เกิดขึ้นจริงได้ มนุษย์จึงสามารถเดินทางไปได้ทั่วจักรวาล
-เพื่อการค้นหาและสำรวจ Quark
+                        <b>ปี 2256</b>
+                        <p> มีการสร้างอุปกรณ์นำทางในการค้นหาดวงดาวที่มี Quark อยู่ โดยอาศัยหลักการ
+                            ตรวจจับความเข้มข้นของสายธารของ Quark โดยมันจะล่องลอยและมีความเข้มข้นสูงขึ้นเมื่อใกล้สู่
+                            ดวงดาว สายธารของ Quark นั้นมิได้มีอยู่แค่ในดวงดาวแต่ในอวกาศเองในจุดใดที่มีความเข้มข้มข้น
+                            เพียงพอก็สามารถทำการเก็บเกี่ยวได้เหมือนกัน ในช่วงแรกของการขึ้นสู่อวกาศเหมืองแร่ Qนark
+                            จะอยู่ในอวกาศ แต่ในอวกาศนั้นจะอันตรายมากเพราะมันจะอยู่ในสภาพของแข็งเมื่อเข้าจับจะเกิดปฏิ
+                            กริยาทางไฟฟ้าทันที ถ้าในบริเวนที่มีสายธารของ Quark หนาแน่มมากมันจะทำให้เกิดพายุสายฟ้าใน
+                            อวกาศ การที่ Quark ปลดปล่อยพลังงานออกมาแล้วไปโดน Quark ที่อยู่บริเวณใกล้เคียงกันเมื่อ
+                            มากอนทำให้เกิด overload ขึ้นและเกิดการระเบิดใหญ่ จึงเป็นสิ่งที่อันตรายมาก ในทางกลับกันเมื่อ
+                            อยู่บนดวงดาวมันจะทำตัวเองให้อยู่ในสภาพของเหลว ซึ่งสามารถเก็บนำมาใช้ได้ง่ายกว่ามาก
                         </p>
                     </div>   
 
                     
-                    <a href="#" class="boxed-btn">Get Your Company <i class="icofont icofont-double-right"></i></a>
+                    <a href="register.html" class="boxed-btn">Get Your SQUAD <i class="icofont icofont-double-right"></i></a>
                 </div>
             </div>
         </div>
@@ -387,7 +391,7 @@
                 iframe: {
                     markup: '<div class="mfp-iframe-scaler">'+
                             '<div class="mfp-close"></div>'+
-                            '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                            '<iframe class="mfp-iframe" id="player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'+
                             '</div>', 
 
                     patterns: {
@@ -396,7 +400,7 @@
 
                         id: 'v=',
 
-                        src: 'https://www.youtube.com/embed/%id%' 
+                        src: 'https://www.youtube-nocookie.com/embed/%id%' 
                     },
 
 
@@ -410,6 +414,7 @@
             
 
     </script>
+
 </body>
 
 </html>
