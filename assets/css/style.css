@@ -2486,6 +2486,10 @@ a.view-details {
     background: #888;
 }
 
+.inner-client img{
+    height: 100px;
+}
+
 
 
 /*
@@ -4480,3 +4484,5 @@ span.battle-report{
     border-bottom: 8px solid #d8a304;
     border-left: 10px solid transparent;
 }
+
+
