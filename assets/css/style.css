@@ -2286,6 +2286,10 @@ button.boxed-btn {
     margin-bottom: 40px;
 }
 
+.section-info p {
+    margin-bottom: 20px;
+}
+
 .video-section {
     background: url(../img/aboutus/video-bg.jpg) no-repeat center / cover;
     position: relative;
@@ -2480,6 +2484,10 @@ a.view-details {
 
 .inner-client:after {
     background: #888;
+}
+
+.inner-client img{
+    height: 100px;
 }
 
 
@@ -4476,3 +4484,5 @@ span.battle-report{
     border-bottom: 8px solid #d8a304;
     border-left: 10px solid transparent;
 }
+
+
