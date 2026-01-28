@@ -114,7 +114,7 @@
         <!-- Navigation End -->
 
         <!-- Breadcrumb Area -->
-        <section id="breadcrumb-area">
+        <section id="breadcrumb-area" class="message">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -139,8 +139,8 @@
 
             <div class="row">
                 <!-- Blog Content -->
-                <div class="col-lg-9 col-md-12">
-                    <article class="blog-post">
+                <div class="col-lg-9 col-md-12" id="grid_tag_filter">
+                    <article class="blog-post tag-li-filter col-12" data-groups='["Market", "News", "Show All"]'>
                         <div class="post-thumb">
                             <img src="assets/img/blog/blogpost01.jpg" alt="">
                             <div class="post-overlay">
@@ -160,7 +160,7 @@
                             <li class="post-tag"><a href="#"><i class="icofont icofont-ui-tag"></i> Event</a></li>
                         </ul>
                     </article>
-                    <article class="blog-post">
+                    <article class="blog-post tag-li-filter col-12" data-groups='["Event", "Tournament", "News", "Show All"]'>
                         <div class="post-thumb">
                             <img src="assets/img/blog/blogpost02.jpg" alt="">
                             <div class="post-overlay">
@@ -180,7 +180,7 @@
                             <li class="post-tag"><a href="#"><i class="icofont icofont-ui-tag"></i> News</a></li>
                         </ul>
                     </article>
-                    <article class="blog-post">
+                    <article class="blog-post tag-li-filter col-12" data-groups='["Event", "Tournament", "Show All"]'>
                         <div class="post-thumb">
                             <img src="assets/img/blog/blogpost03.jpg" alt="">
                             <div class="post-overlay">
@@ -200,7 +200,7 @@
                             <li class="post-tag"><a href="#"><i class="icofont icofont-ui-tag"></i> Tournament</a></li>
                         </ul>
                     </article>
-                    <article class="blog-post">
+                    <article class="blog-post tag-li-filter col-12" data-groups='["Market", "Event", "Show All"]'>
                         <div class="post-thumb">
                             <img src="assets/img/blog/blogpost04.jpg" alt="">
                             <div class="post-overlay">
@@ -220,16 +220,16 @@
                             <li class="post-tag"><a href="#"><i class="icofont icofont-ui-tag"></i> News</a></li>
                         </ul>
                     </article>
-                    <nav class="pagination" aria-label="Page navigation example">
+                    <!-- <nav class="pagination" aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
                             <li class="page-item active disabled"><a class="page-link" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
-                            <li class="page-item more-page">
+                            <!-- <li class="page-item more-page">
                                 <a class="page-link" href="#">View More <i class="icofont icofont-long-arrow-right"></i></a>
                             </li>
                         </ul>
-                    </nav>
+                    </nav>  -->
                 </div>
 
                 <!-- Sidebar -->
@@ -237,11 +237,12 @@
                     <section class="sidebar"> 
                         <aside class="widget widget-tag">
                             <h5 class="widget-title">Tags</h5>
-                            <ul class="tags">
-                                <li><a href="#">Tournament</a></li>
-                                <li><a href="#">market</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Event</a></li>
+                            <ul class="tags"  id="filter">
+                                <li><a href="#" data-group="Show All" class="active">Show All</a></li>
+                                <li><a href="#" data-group="Tournament">Tournament</a></li>
+                                <li><a href="#" data-group="Market">Market</a></li>
+                                <li><a href="#" data-group="News">News</a></li>
+                                <li><a href="#" data-group="Event">Event</a></li>
                             </ul>
                         </aside>                                     
                     </section>

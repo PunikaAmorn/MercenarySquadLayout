@@ -2138,7 +2138,7 @@ button.boxed-btn {
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url("../img/homepage/blog/blog01.jpeg");
+    background-image: url("../img/homepage/blog/blogBG.jpeg");
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2244,6 +2244,22 @@ button.boxed-btn {
     font-family: "Fontawesome";
     font-size: 12px;
     margin-left: 10px;
+}
+
+#breadcrumb-area.message{
+     background: url(../img/breadcumb-bg/message.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.rule{
+     background: url(../img/breadcumb-bg/rule.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.story{
+     background: url(../img/breadcumb-bg/story.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.unit{
+     background: url(../img/breadcumb-bg/unit.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.pandora-market{
+     background: url(../img/breadcumb-bg/pandora-market.jpg) no-repeat center / cover !important;
 }
 
 /*-----------------------------------
@@ -4485,4 +4501,7 @@ span.battle-report{
     border-left: 10px solid transparent;
 }
 
-
+ul.tags li a.active {
+    background-color: #d8a304;
+    color: white;
+}
