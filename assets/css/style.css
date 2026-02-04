@@ -506,9 +506,14 @@ nav {
 
 /* Submenu*/
 
-.main-menu ul li.active ul li a {
-    color: #6a7d92 !important;
+.main-menu ul li.main.active ul li a {
+    color: #e8e8e8 !important;
 }
+
+.main-menu ul li.main.active ul li.active a {
+    color: #d8a304 !important;
+}
+
 
 .main-menu ul li.active ul li a {
     color: #6a7d92 !important;
@@ -2257,6 +2262,9 @@ button.boxed-btn {
 }
 #breadcrumb-area.unit{
      background: url(../img/breadcumb-bg/unit.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.acceassory{
+     background: url(../img/breadcumb-bg/accessory.jpg) no-repeat center / cover !important;
 }
 #breadcrumb-area.pandora-market{
      background: url(../img/breadcumb-bg/pandora-market.jpg) no-repeat center / cover !important;
