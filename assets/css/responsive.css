@@ -50,6 +50,10 @@
         margin: 22px -30px 22px 0;
     }
 
+    .section-header h2:before {
+        left: 40px;
+    }
+
     .section-header h2:after {
         right: 40px;
     }
@@ -167,6 +171,8 @@
         width: 100%;
     }
 
+
+    .section-header h2:before ,
     .section-header h2:after {
         display: none;
     }

@@ -33,7 +33,7 @@
 
         // Testimonial Carousel
         $(".testimonial-carousel").owlCarousel({
-            items: 3,
+            items: 2,
             loop: true,
             dots: true,
             nav: false,
@@ -50,7 +50,7 @@
                     items: 1,
                 },
                 900: {
-                    items: 3
+                    items: 2
                 }
             }
         });

@@ -506,9 +506,14 @@ nav {
 
 /* Submenu*/
 
-.main-menu ul li.active ul li a {
-    color: #6a7d92 !important;
+.main-menu ul li.main.active ul li a {
+    color: #e8e8e8 !important;
 }
+
+.main-menu ul li.main.active ul li.active a {
+    color: #d8a304 !important;
+}
+
 
 .main-menu ul li.active ul li a {
     color: #6a7d92 !important;
@@ -2138,7 +2143,7 @@ button.boxed-btn {
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url("../img/homepage/blog/blog01.jpg");
+    background-image: url("../img/homepage/blog/blogBG.jpeg");
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2246,6 +2251,25 @@ button.boxed-btn {
     margin-left: 10px;
 }
 
+#breadcrumb-area.message{
+     background: url(../img/breadcumb-bg/message.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.rule{
+     background: url(../img/breadcumb-bg/rule.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.story{
+     background: url(../img/breadcumb-bg/story.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.unit{
+     background: url(../img/breadcumb-bg/unit.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.acceassory{
+     background: url(../img/breadcumb-bg/accessory.jpg) no-repeat center / cover !important;
+}
+#breadcrumb-area.pandora-market{
+     background: url(../img/breadcumb-bg/pandora-market.jpg) no-repeat center / cover !important;
+}
+
 /*-----------------------------------
     02. About us info
 ------------------------------------*/
@@ -2284,6 +2308,10 @@ button.boxed-btn {
 
 #about-us .section-info {
     margin-bottom: 40px;
+}
+
+.section-info p {
+    margin-bottom: 20px;
 }
 
 .video-section {
@@ -2480,6 +2508,10 @@ a.view-details {
 
 .inner-client:after {
     background: #888;
+}
+
+.inner-client img{
+    height: 100px;
 }
 
 
@@ -3475,7 +3507,7 @@ ul.contact-social li a {
   */
 
 .brochure-block{
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 15px 0px rgba(255, 209, 42, 0.5);
     position: relative;
     overflow: hidden;
 }
@@ -4475,4 +4507,9 @@ span.battle-report{
     position: absolute;
     border-bottom: 8px solid #d8a304;
     border-left: 10px solid transparent;
+}
+
+ul.tags li a.active {
+    background-color: #d8a304;
+    color: white;
 }
