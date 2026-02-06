@@ -3507,7 +3507,7 @@ ul.contact-social li a {
   */
 
 .brochure-block{
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 15px 0px rgba(255, 209, 42, 0.5);
     position: relative;
     overflow: hidden;
 }
