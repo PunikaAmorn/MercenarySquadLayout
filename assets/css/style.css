@@ -1389,8 +1389,6 @@ ul.cart-list > li.total > .btn-cart:hover {
     position: relative;
 }
 
-.service-icon i {}
-
 .services-item .service-icon img,
 .services-item .service-icon i {
     width: 50px;
@@ -2192,6 +2190,12 @@ button.boxed-btn {
 .scrollup:hover {
     background: #fff;
     box-shadow: 0 2px 12px 0 rgba(255, 209, 42, .5)
+}
+
+.icofont.icofont-facebook {
+    padding: 3px;
+    border-radius:5px;
+    border:1px solid white;
 }
 
 /*
