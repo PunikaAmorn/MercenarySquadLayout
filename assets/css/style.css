@@ -2192,6 +2192,12 @@ button.boxed-btn {
     box-shadow: 0 2px 12px 0 rgba(255, 209, 42, .5)
 }
 
+.icofont.icofont-facebook {
+    padding: 3px;
+    border-radius:5px;
+    border:1px solid white;
+}
+
 /*
 ===================================================================================
     02. About us page
